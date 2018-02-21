@@ -5,6 +5,11 @@ public class Habitacion {
     
     private boolean disponible;
     private int numero;
+    
+    public Habitacion(int n){
+        disponible = true;
+        numero = n;
+    }
 
     public boolean isDisponible() {
         return disponible;
