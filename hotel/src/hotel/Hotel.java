@@ -24,7 +24,7 @@ public class Hotel {
     public Habitacion getHabitacion(){
         for(int i=0; i<10; i++){
             if(habitaciones[i].isDisponible()){
-                System.out.println("la habitacion "+i+" ahora esta ocupada");
+                System.out.println("la habitacion "+habitaciones[i].getNumero+" ahora esta ocupada");
                 habitaciones[i].setDisponible(false);
                 return habitaciones[i];
             }
