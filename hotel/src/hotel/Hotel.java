@@ -14,15 +14,11 @@ public class Hotel {
     }
             
     private Hotel(){
-        
-    }
-    public void room(){
         habitaciones = new Habitacion[10];
         for(int i=0; i<10; i++){
-            habitaciones[i]=new Habitacion();
-            habitaciones[i].setDisponible(true);
-            habitaciones[i].setNumero(i+1);
+            habitaciones[i]=new Habitacion(i+1);
         }
+        
     }
     
     public Habitacion getHabitacion(){
