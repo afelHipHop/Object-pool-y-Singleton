@@ -10,6 +10,10 @@ public class Habitacion {
         disponible = true;
         numero = n;
     }
+    
+    public Habitacion(){
+        
+    }
 
     public boolean isDisponible() {
         return disponible;
