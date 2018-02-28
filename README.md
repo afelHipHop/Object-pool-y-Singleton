@@ -1,3 +1,13 @@
+# Nombres:
+ Hernan Arenas - 20161020078
+
+
+Andres Ramirez - 20161020077
+
+
+Kevin Rocha - 20161020086
+
+
 # Object pool 
 El patrón object pool es un patrón de diseño de software que usa un conjunto de objetos inicializados preparados para su uso. Esto es más efectivo normalmente que creando y destruyento los objetos bajo demanda. Un cliente del pool le pedirá un objeto para realizar las operaciones con el objeto. Cuando el cliente termina retorna el objeto al pool para que lo retenga hasta que vuelva a necesitar usarse. Es decir, los objetos no se crean (salvo la primera vez) ni se destruyen, simplemente se van reciclando.
 # Singleton o instancia unica
