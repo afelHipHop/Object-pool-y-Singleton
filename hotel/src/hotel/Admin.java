@@ -8,7 +8,7 @@ public class Admin {
     
     public void verificarDisponibilidad(){
         h = Hotel.getInstance();
-        for(int i=0; i<10; i++){
+        for(int i=0; i<4; i++){
             System.out.println("Habitacion: "+habitaciones[i].getNumero()+" Disponible: "+habitaciones[i].isDisponible());
         }
     }
