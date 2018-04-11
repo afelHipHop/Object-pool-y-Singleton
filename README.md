@@ -15,3 +15,4 @@ es un patrón de diseño que permite restringir la creación de objetos pertenec
 Su intención consiste en garantizar que una clase sólo tenga una instancia y proporcionar un punto de acceso global a ella.
 El patrón singleton se implementa creando en nuestra clase un método que crea una instancia del objeto sólo si todavía no existe alguna. Para asegurar que la clase no puede ser instanciada nuevamente se regula el alcance del constructor (con modificadores de acceso como protegido o privado).
 ![patron singleton](singleton.jpg)
+![patron pool](pool.jpg)
